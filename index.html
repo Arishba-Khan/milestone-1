@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Career Craftor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     
+    <header>
+        <h1>Create Your Resume Here</h1>
+    </header>
+
+    <main>
+    <form id="resumeForm">
+        <fieldset>
+            <legend>Personal Informartion</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required> <br> <br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required> <br> <br>
+
+            <label for="phone">Contact:</label>
+            <input type="tel" id="phone" name="phone" required> <br> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Education</legend>
+            <label for="degree">Degree:</label>
+            <input type="text" id="degree" name="degree"><br><br>
+
+            <label for="institution">Institution:</label>
+            <input type="text" id="institution" name="institution"><br><br>
+
+            <label for="year">Graduation Year:</label>
+            <input type="number" id="year" name="year"><br><br>
+            
+        </fieldset>
+
+        <fieldset>
+            <legend>Experience</legend>
+            <label for="jobTitle">Job Title:</label>
+            <input type="text" id="jobTitle" name="jobTitle"><br><br>
+
+            <label for="company">Company:</label>
+            <input type="text" id="company" name="company"><br><br>
+
+            <label for="years">Years Worked:</label>
+            <input type="number" id="years" name="years"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Skills</legend>
+            <label for="skills">Skills:</label>
+            <textarea name="skills" id="skills" rows="3"></textarea>
+        </fieldset>
+
+        <button type="submit">Let's build it</button>
+    </form>
+
+    </main>
+
+    <footer>
+        <p>&copy; Created with ❤️ by Arishba Khan</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
